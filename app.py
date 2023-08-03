@@ -11,7 +11,7 @@ def main():
 
 @app.route("/file")
 def read_file():
-    f = open("./data/testfile.txt")
+    f = open("/data/testfile.txt")
     contents = f.read()
     return(contents)
 
